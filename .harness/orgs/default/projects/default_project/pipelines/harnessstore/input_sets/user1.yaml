@@ -1,0 +1,13 @@
+inputSet:
+  pipeline:
+    identifier: harnessstore
+    stages:
+      - stage:
+          identifier: iacm
+          type: IACM
+          spec:
+            workspace: new25
+  name: user-1
+  identifier: user1
+  orgIdentifier: default
+  projectIdentifier: default_project
